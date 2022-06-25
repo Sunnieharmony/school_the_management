@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Management</title>
+    <style>
+       
+        :root{
+           --black:#2C3E50;
+           --white:#FBFCFC;
+           --red:#EC7063;
+           --gray:#566573;
+           
+
+
+        }
+        h2{
+            margin-top: 50px;
+            color: var(--black);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 25px;
+        }
+        .img{
+            float: right;
+            height: 300px;
+            width: 240px;
+            margin-top: 50px;
+            margin-right: 20px;
+            
+        }
+        body{
+            background-color: var(--white);
+        }
+p{
+   font-size: 20px; 
+   color:var(--gray);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+    sans-serif;
+    margin-right: 300px;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+.p1{
+   font-size: 20px; 
+   color:var(--gray);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+    sans-serif;
+    margin-right: 300px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.p2{
+   font-size: 20px; 
+   color:var(--gray);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+    sans-serif;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+
+
+    </style>
+</head>
+<!-- navbar -->
+<div class="nav-bar" id="navbar">
+    <div class="nav-content">
+        <img src="content/logo.jpg" class="logo">
+        <div class="nav-content-mid">
+            <h1>BGS PUBLIC SCHOOL</h1>
+            <h3>Affiliated to CBSE, New Delhi</h3>
+        </div>
+        <img src="content/bgs-swamiji.png" class="logo-swamiji">
+    </div>
+    <ul id="menu">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a>
+            <div class="sub-menu">
+                <ul>
+                    <li><a href="#">About The School</a></li>
+                    <li><a href="#">The Management</a></li>
+                    <li><a href="#">Principal Desk</a></li>
+                    <li><a href="#">Admissions Policy And Procedure</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">CBSE ACCREDITATION</a>
+            <div class="sub-menu">
+                <ul>
+                    <li><a href="#">CBSE Affiliation Report</a></li>
+                    <li><a href="#">Mandatory Disclosure</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">FACULTY</a>
+            <div class="sub-menu">
+                <ul>
+                    <li><a href="#">Teachers List</a></li>
+                    <li><a href="#">Teaching Methodology</a></li>
+                    <li><a href="#">Teachers Workshop</a></li>
+                    <li><a href="#">Commitee</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">ACADEMICS</a>
+            <div class="sub-menu">
+                <ul>
+                    <li><a href="#">Monthly Syllabus</a></li>
+                    <li><a href="#">Circulars</a></li>
+                    <li class="hover-me"><a href="#">Academic Curriculum</a><i class="fa-solid fa-angle-right"></i>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="#">Kindergarden</a></li>
+                                <li><a href="#">Secondary</a></li>
+                                <li><a href="#">Senior Secondary</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Assignments</a></li>
+                    <li><a href="#">Assesment And Evaluation</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">LABS</a>
+            <div class="sub-menu">
+                <ul>
+                    <li><a href="#">Physics Lab</a></li>
+                    <li><a href="#">Chemistry Lab</a></li>
+                    <li><a href="#">Biologgy Lab</a></li>
+                    <li><a href="#">Computer Lab</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">BGS BUZZ</a>
+            <div class="sub-menu">
+                <ul>
+                    <li><a href="#">CCA</a></li>
+                    <li class="hover-me"><a href="#">Club</a><i class="fa-solid fa-angle-right"></i>
+                        <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="#">Literature</a></li>
+                                <li><a href="#">Language</a></li>
+                                <li><a href="#">Social Science</a></li>
+                                <li><a href="#">Mathematics</a></li>
+                                <li><a href="#">Science</a></li>
+                                <li><a href="#">Information Technology</a></li>
+                                <li><a href="#">Art And Craft</a></li>
+                                <li><a href="#">Music</a></li>
+                                <li><a href="#">Dance</a></li>
+                                <li><a href="#">Sports</a></li>
+                                <li><a href="#">Photography</a></li>
+                                <li><a href="#">Karate</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Celebration</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Sports</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">STUDENTS ZONE</a>
+            <div class="sub-menu">
+                <ul>
+                    <li><a href="#">Syllabus</a></li>
+                    <li><a href="#">Student Resources</a></li>
+                    <li><a href="#">School Schedule</a></li>
+                    <li><a href="#">Parents Login</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">GALLERY</a>
+            <div class="sub-menu">
+                <ul>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Photo</a></li>
+                    <li><a href="#">Video</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">FACILITIES</a>
+            <div class="sub-menu">
+                <ul>
+                    <li><a href="#">Transportation Facility</a></li>
+                    <li><a href="#">Infrastructure
+                    </a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">CONTACT</a>
+            <div class="sub-menu">
+                <ul>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+
+
+
+
+
+
+
+
+<!-- content -->
+
+<body><h2>
+    His Divine Soul 
+    Padmabhushana Sri Sri Sri Dr Balagangadharanatha
+     Mahaswamiji
+    </h2>
+    <img src="content/bgs-swamiji.png" class="img">
+
+    <!-- Balagangadharanatha swamiji -->
+
+    <p><b>Sri Sri Sri Dr Balagangadharanatha Swamiji</b>, 
+    pontiff of <b>Adichunchanagiri</b>
+     mutt, was born as Gangadharayya on January 25, 
+     1945.</p>
+
+     <p class="p1">After completing SSLC with 
+     a first class in 1963, he joined the Government Arts
+      and Science College in Bangalore to pursue science.
+    </p>
+
+
+
+     <p class="p1">His spiritual inclination drew him to pontiffs 
+     of various mutts during his student life and it
+      prepared him for the role he played well after
+       taking charge of Adichunchanagiri mutt at 
+       Nagamangala taluk in Mandya district.</p>
+
+      <p class="p1"> He was given diksha by Ramananda Swamy, 
+       the then pontiff of Adichunchanagiri mutt,
+        on February 12, 1968 and was renamed as 
+        Balagangadharanatha.</p>
+
+<p class="p2">
+After he was anointed as the pontiff of the mutt on
+ September 24, 1974, Balagangadhara went to
+  Kailasashrama in Bangalore and Sri Jayachamarajendra
+   Government Sanskrit School for obtaining scholarship
+    in scriptures.
+</p>
+
+<p class="p2">The mutt witnessed a revolutionary progress
+ under his leadership with several of his 
+ flagship projects in education, religion and social
+  service. Hundreds of thousands of children from rural
+   areas are studying in more than 450 Institutions run
+    by the Adichunchanagiri Education Trust.</p>
+
+<p class="p2">The children of the less privileged are provided with
+ accommodation, food and education, starting from 
+ pre- school to MBBS and Engineering. Besides, the
+  students irrespective of their caste and creed, can
+   study Sanskrit and Agama at Kalabhairaveshwara 
+   Samskrita Agama Pathashale on the mutt premises at 
+   Adichunchanagiri.</p>
+
+  <p class="p2">Being the main pontiff Swamji enjoyed immense 
+   political following. Political leaders,
+    cutting across party lines and, called on him
+     regularly seeking his guidance. Many political
+      leaders would call on him before launching the 
+      election campaign or political conventions.</p> 
+
+<p class="p2">With the association of State government and different
+ religious leaders, Balagangadharanath Swami launched 
+ “Karnataka Vanasamvardhana Trust,” to improve the 
+ forest wealth by planting five crore saplings. 
+ The mutt volunteers under his guidance took up 
+ desilting of water tanks as a part of Jalasamvardhana
+  scheme to increase the storage capacity of tanks and
+   improve ground water level.</p>
+
+<p class="p2">He also rendered yeoman
+ service in the health sector, opening hospitals that
+  provided free accommodations, treatment and food.</p>
+
+<p class="p2">Under a health programme, trained healthcare
+ volunteers visit villages every day, educate,
+  guide the patients and bring suffering patients
+   to the hospital, get them treated and send them back
+    to their places. He also introduced mass marriage
+     system to reduce the burden on the economically 
+     deprived sections of society. </p>
+
+     <!-- Nirmalanandanatha swamiji -->
+     <br><br>
+    <h2> His Holiness Sri Sri Sri Dr Nirmalanandanatha Swamiji</h2>
+     <img src="content/download.jpg" class="img"><br><br>
+
+     <p class="p1"><b>His Holiness Jagadguru Sri Dr. Nirmalanandanatha
+      Mahaswamiji</b> appointed as the 72nd Pontiff of 
+      Adichunchanagiri Mahasamsthana Math as successor
+       to his Guru, Sri Sri Sri Dr. Balagangadharanatha
+        Mahaswamiji in the year 2013</p>
+
+<p class="p1">Poojya Mahaswamiji, aided by his educational
+ background and interest in Engineering has
+  incorporated Modern Technologies and revolutionized
+   the functioning of all the Institutions of Shikshana
+    Trust.</p>
+
+<p class="p1">Poojya Mahaswamiji, 
+unlike many other youngsters,
+ had an inclination towards Spirituality,
+  Science and Service rather than Materialism. 
+  He adapted an ascetic life in 1998 and underwent
+   formal training in the traditional knowledge systems. His unquenchable thirst for knowledge is evident from his attitude in conferences and functions wherein he listens to the discourses on Vedas, Upanishads and other Shastras like an eager young student.
+Poojya Mahaswamiji, aided by his educational background
+ and interest in Engineering has incorporated Modern
+  Technologies and revolutionized the functioning of
+   all the Institutions of Shikshana Trust. He has 
+   taken up the initiative of introducing computerized
+    working environment in all the Academic and 
+    Administrative activities of the institutions.
+The Vision of Poojya Mahaswamiji is to follow the
+ footsteps of his Guru, working tirelessly to
+  “Preserve, Promote, Pursue and Progress with Passion
+   in the Path of his Patriarch”</p>
+
+   <!-- Prakashnath Swamiji --> <br><br>
+   <h2> Revered Sri Sri Dr Prakashnath Swamiji</h2>
+   <img src="content/ps.jpg" class="img">
+
+   <p class="p1"><br><br>
+   Communal harmony is one of the indispensable 
+   requirements of peaceful existence of life. In 
+   this regard the vicinity, idealism & spiritual folks
+    of Sri “Honnegowda” and “Parvathamma”. This family
+     was enormously worshiping  
+     Sri Kalabhyraveshwaraswamy and great devotee 
+     of Sri Adichunchanagiri Mutt. They were residing 
+     in a trivial village in Bhadravathi in fact it is
+      bounded by all consecrated places, full of 
+      hallowed knolls & caverns – an captivating 
+      environment. They were blessed idiosyncratic son
+       on February 7th 1966 and named as “Shekarappa”
+        and brought up with lot of love, care and 
+        affection from his parents and their
+         grandparents. Shekarappa imbibed his father’s
+          qualities and always desired to follow them
+           with devotion and his mother in fact had
+            identified in his childhood the uniqueness
+             of an admirable person and a human being
+              who would be a cause for intact transform
+               and would one day be considered a deity.
+                Although his family was not frugally so 
+                good and has recognized the magnitude 
+                of education and since his childhood
+                 days was very fretful to religious
+                  theme and discerned from early
+                   on that he desired to do something 
+                   to enhance the humanity.
+                </p>
+<p class="p2">
+                Shekarappa made his life admirable, 
+                with the full of interest and served
+                 Maha Swamiji for 25 – 30 years and 
+                 dedicated his holiness, interest,
+                  morality on work. . He used to do 
+                  all the exertion with lot of passion,
+                   commitment and dedication. Among the
+                    thousands of people he has garbed 
+                    the Maha Swamiji’s attention and
+                     become the enthusiast of Maha
+                      Swamiji. Along with Maha Swamiji
+                       he started to travel different 
+                       countries to explore the culture
+                        of other countries in the field
+                         of education.
+                        </p>
+<p class="p2">
+                        Shekarappa was also interested
+                         in taking quotas, ham radio
+                         mechanism and was focused to
+                          know the features and
+                           mechanism about installation
+                            of such instruments without
+                             any time constraints and 
+                             also he was very much keen
+                              to know about Vedangas and
+                               Arthashastra. This 
+                               attentiveness improves of
+                               ri Mutt with the knowledge 
+                               in the field of education.
+                                He was also appreciated 
+                                internationally for his 
+                                spiritual way of life. 
+                                With his celestial presence
+                                , honesty and compassion
+                                 nature made Poojya 
+                                 Mahaswamiji united 
+                                 Shekarappa to “Natha”
+                                  tradition and Renamed 
+                                  as “Sri Sri Prakashanatha
+                                   Swamiji”.</p>
+<p class="p2">
+    When a common man see’s any bird, he feels or 
+    desires the same i.e., if I had a wings, I could
+     have fly. In this technological world we can
+      formulate this delusion come true only by using 
+      aeroplanes or helicopters. So, Sri Sri 
+      Prakashanantha Swamiji had a lot of trance
+       concerning this which came true by the help
+        of Maha Swamiji. Due to ill of Maha Swamiji, 
+        Sri Sri Prakashnanth Swamiji himself became a 
+        pilot and took helicopters for itinerant
+         purpose to condense the time duration and 
+         agitation of Maha Swamiji for better 
+         augmentation of society. Sri Sri Prakashanatha
+          Swamiji is focused on providing humanitarian
+           services to the Mutt with all his commitment
+            and confidence promptness towards his
+             service. With continuous service and
+              commitment towards work Sri Sri
+               Prakashanatha Swamiji got the
+                reliability to handle the segment of
+                 “BGS Health and Education City”, for 
+                 the growth and progress of the 
+                 Sri Mutt.
+
+</p>
+
+<p class="p2">
+    In short span of time he shaped a cosmopolitan
+     atmosphere in the BGS Health and Education city,
+      in which people belonging to all religion and
+       creeds can exertion collectively for common aims
+        and objectives of institution and he also
+         counsels and commiserate the persons with 
+         sickness, worries or distressed various kinds 
+         of tribulations. People very much aspiration
+          his Gracious occurrence in many religious, 
+          cultural, social and enlightening programs
+           and conferences. He is exceedingly edifying
+            and stimulating speech on such occasions
+             instills fortitude of righteousness and 
+             brotherly care for the people. With his 
+             great personality Swamiji content the 
+             respects of all the dignitaries of the 
+             Nation and also in abroad. Many delegates
+              of the Nation visited to the institute to
+               get the assistance for their work, and 
+               also to seek his blessings. There was 
+               tremendous evolution of this institute
+                with lot of passionate by establishing 
+                the education institution in national 
+                level. He is well known to people of
+                 all over India by his Service to 
+                 Society by endurance person, much 
+                 disciplined life, faith in humanity
+                  and sincerity to help the poor and
+                   needy people With Maha swamiji’s 
+                   grace Sri Sri Prakashanatha Swamiji
+                    got the conscientiousness for the
+                     advancement and intensification
+                      not only the BGS Health & 
+                      Education City but also Sri Mutt 
+                      in Nithyanandh Nagar, Banandur
+                       School, Women Sevashram and so
+                        on. He made revolutionary
+                         growth under his leadership 
+                         with numerous of his flagship
+                          projects in education,
+                           religion and social service
+                            and seer focused on 
+                            providing humanitarian
+                             services.
+
+
+</p>
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
